@@ -2,16 +2,16 @@ function Header() {
     return (
 
      
-<nav id="navbar" class="">
-  <div class="nav-wrapper">
+<nav  className="navbar">
+  <div className="nav-wrapper">
 
-    <div class="logo">
+    <div className="logo">
      
-      <a href="#home"><i class="fa fa-angellist"></i> NewsHour</a>
+      <a href="#home"><i className="fa fa-angellist"></i> NewsHour</a>
     </div>
 
    
-    <ul id="menu">
+    <ul className="menu">
       <li><a href="#home">Home</a></li>
    <li><a href="#services">Politics</a></li>
    <li><a href="#about">Science</a></li>
